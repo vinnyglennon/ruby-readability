@@ -23,7 +23,7 @@ module Readability
     REGEXES = {
         :unlikelyCandidatesRe => /combx|comment|community|disqus|extra|foot|header|menu|remark|rss|shoutbox|sidebar|sponsor|ad-break|agegate|pagination|pager|popup/i,
         :okMaybeItsACandidateRe => /and|article|body|column|main|shadow/i,
-        :positiveRe => /article|body|content|entry|hentry|main|code|picture|figure|page|pagination|post|pre|text|blog|story/i,
+        :positiveRe => /article|blockquote|body|content|entry|hentry|main|code|picture|figure|page|pagination|post|pre|text|blog|story/i,
         :negativeRe => /combx|comment|com-|contact|foot|footer|footnote|masthead|media|meta|outbrain|promo|related|scroll|shoutbox|sidebar|sponsor|shopping|tags|tool|widget/i,
         :divToPElementsRe => /<(a|blockquote|dl|div|img|ol|p|pre|table|ul)/i, 
         :replaceBrsRe => /(<br[^>]*>[ \n\r\t]*){2,}/i,
